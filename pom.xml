@@ -24,17 +24,17 @@
   <dependencies>
   
   
-     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-web</artifactId>
-      <!-- 去除内嵌tomcat -->
-      <exclusions>
-        <exclusion>
-          <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-starter-tomcat</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
+<!--      <dependency> -->
+<!--       <groupId>org.springframework.boot</groupId> -->
+<!--       <artifactId>spring-boot-starter-web</artifactId> -->
+<!--       去除内嵌tomcat -->
+<!--       <exclusions> -->
+<!--         <exclusion> -->
+<!--           <groupId>org.springframework.boot</groupId> -->
+<!--           <artifactId>spring-boot-starter-tomcat</artifactId> -->
+<!--         </exclusion> -->
+<!--       </exclusions> -->
+<!--     </dependency> -->
     <!--添加servlet的依赖-->
     <dependency>
       <groupId>javax.servlet</groupId>
